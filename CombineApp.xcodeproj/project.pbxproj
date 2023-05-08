@@ -14,6 +14,13 @@
 		63692068297EC34600E03F7E /* CombineAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63692067297EC34600E03F7E /* CombineAppTests.swift */; };
 		63692072297EC34600E03F7E /* CombineAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63692071297EC34600E03F7E /* CombineAppUITests.swift */; };
 		63692074297EC34600E03F7E /* CombineAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63692073297EC34600E03F7E /* CombineAppUITestsLaunchTests.swift */; };
+		63692082297EC3BB00E03F7E /* FirstPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63692081297EC3BB00E03F7E /* FirstPipeline.swift */; };
+		63692084297ECAF800E03F7E /* FirstCancellablePipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63692083297ECAF800E03F7E /* FirstCancellablePipeline.swift */; };
+		6369208A297EDA3100E03F7E /* CancellingMultiplePipelines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63692089297EDA3100E03F7E /* CancellingMultiplePipelines.swift */; };
+		6369208C297EE1D600E03F7E /* CurrentValueSubjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6369208B297EE1D600E03F7E /* CurrentValueSubjectView.swift */; };
+		636D7140297F2CBF006CEBF8 /* EmptyPublisherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636D713F297F2CBF006CEBF8 /* EmptyPublisherView.swift */; };
+		636D71432981A3D9006CEBF8 /* FailPublisherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636D71422981A3D9006CEBF8 /* FailPublisherView.swift */; };
+		636D714A29881310006CEBF8 /* FuturePublisherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636D714929881310006CEBF8 /* FuturePublisherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,13 @@
 		6369206D297EC34600E03F7E /* CombineAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CombineAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63692071297EC34600E03F7E /* CombineAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineAppUITests.swift; sourceTree = "<group>"; };
 		63692073297EC34600E03F7E /* CombineAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		63692081297EC3BB00E03F7E /* FirstPipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPipeline.swift; sourceTree = "<group>"; };
+		63692083297ECAF800E03F7E /* FirstCancellablePipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCancellablePipeline.swift; sourceTree = "<group>"; };
+		63692089297EDA3100E03F7E /* CancellingMultiplePipelines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellingMultiplePipelines.swift; sourceTree = "<group>"; };
+		6369208B297EE1D600E03F7E /* CurrentValueSubjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentValueSubjectView.swift; sourceTree = "<group>"; };
+		636D713F297F2CBF006CEBF8 /* EmptyPublisherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyPublisherView.swift; sourceTree = "<group>"; };
+		636D71422981A3D9006CEBF8 /* FailPublisherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailPublisherView.swift; sourceTree = "<group>"; };
+		636D714929881310006CEBF8 /* FuturePublisherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FuturePublisherView.swift; path = "CombineApp/Lesson 6/FuturePublisherView.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +112,15 @@
 				63692055297EC34400E03F7E /* CombineAppApp.swift */,
 				63692057297EC34400E03F7E /* ContentView.swift */,
 				63692059297EC34600E03F7E /* Assets.xcassets */,
+				63692080297EC39C00E03F7E /* Lesson 1 */,
+				63692085297ECB0100E03F7E /* Lesson 2 */,
+				63692086297ED9E400E03F7E /* Lesson 3 */,
+				63692087297ED9F300E03F7E /* Lesson 4 */,
+				63692088297EDA0800E03F7E /* Lesson 5 */,
+				636D7148298812D7006CEBF8 /* Lesson 6 */,
+				636D714629881272006CEBF8 /* Lesson 7 */,
+				636D714729881274006CEBF8 /* Lesson 8 */,
+				636D71412981A3B7006CEBF8 /* Lesson 9 */,
 				6369205B297EC34600E03F7E /* CombineApp.entitlements */,
 				6369205C297EC34600E03F7E /* Preview Content */,
 			);
@@ -127,6 +150,77 @@
 				63692073297EC34600E03F7E /* CombineAppUITestsLaunchTests.swift */,
 			);
 			path = CombineAppUITests;
+			sourceTree = "<group>";
+		};
+		63692080297EC39C00E03F7E /* Lesson 1 */ = {
+			isa = PBXGroup;
+			children = (
+				63692081297EC3BB00E03F7E /* FirstPipeline.swift */,
+			);
+			path = "Lesson 1";
+			sourceTree = "<group>";
+		};
+		63692085297ECB0100E03F7E /* Lesson 2 */ = {
+			isa = PBXGroup;
+			children = (
+				63692083297ECAF800E03F7E /* FirstCancellablePipeline.swift */,
+			);
+			path = "Lesson 2";
+			sourceTree = "<group>";
+		};
+		63692086297ED9E400E03F7E /* Lesson 3 */ = {
+			isa = PBXGroup;
+			children = (
+				63692089297EDA3100E03F7E /* CancellingMultiplePipelines.swift */,
+			);
+			path = "Lesson 3";
+			sourceTree = "<group>";
+		};
+		63692087297ED9F300E03F7E /* Lesson 4 */ = {
+			isa = PBXGroup;
+			children = (
+				6369208B297EE1D600E03F7E /* CurrentValueSubjectView.swift */,
+			);
+			path = "Lesson 4";
+			sourceTree = "<group>";
+		};
+		63692088297EDA0800E03F7E /* Lesson 5 */ = {
+			isa = PBXGroup;
+			children = (
+				636D713F297F2CBF006CEBF8 /* EmptyPublisherView.swift */,
+			);
+			name = "Lesson 5";
+			path = "Lesson 4/Lesson 5";
+			sourceTree = "<group>";
+		};
+		636D71412981A3B7006CEBF8 /* Lesson 9 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 9";
+			sourceTree = "<group>";
+		};
+		636D714629881272006CEBF8 /* Lesson 7 */ = {
+			isa = PBXGroup;
+			children = (
+				636D714929881310006CEBF8 /* FuturePublisherView.swift */,
+			);
+			path = "Lesson 7";
+			sourceTree = "<group>";
+		};
+		636D714729881274006CEBF8 /* Lesson 8 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Lesson 8";
+			sourceTree = "<group>";
+		};
+		636D7148298812D7006CEBF8 /* Lesson 6 */ = {
+			isa = PBXGroup;
+			children = (
+				636D71422981A3D9006CEBF8 /* FailPublisherView.swift */,
+			);
+			path = "Lesson 6";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +353,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				636D714A29881310006CEBF8 /* FuturePublisherView.swift in Sources */,
 				63692058297EC34400E03F7E /* ContentView.swift in Sources */,
+				6369208A297EDA3100E03F7E /* CancellingMultiplePipelines.swift in Sources */,
+				63692084297ECAF800E03F7E /* FirstCancellablePipeline.swift in Sources */,
 				63692056297EC34400E03F7E /* CombineAppApp.swift in Sources */,
+				636D7140297F2CBF006CEBF8 /* EmptyPublisherView.swift in Sources */,
+				6369208C297EE1D600E03F7E /* CurrentValueSubjectView.swift in Sources */,
+				63692082297EC3BB00E03F7E /* FirstPipeline.swift in Sources */,
+				636D71432981A3D9006CEBF8 /* FailPublisherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
